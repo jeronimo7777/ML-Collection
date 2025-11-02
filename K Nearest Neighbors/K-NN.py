@@ -5,7 +5,6 @@ import  seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 
 print("Importing our data...")
@@ -89,3 +88,4 @@ print('\n')
 print(confusion_matrix(y_test,pred))
 print('\n')
 print(classification_report(y_test,pred))
+
